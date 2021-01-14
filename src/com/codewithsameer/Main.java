@@ -7,5 +7,6 @@ public class Main {
 	    account.deposit(10);
 	    account.withdraw(5);
         System.out.println(account.getBalance());
+        System.out.println("EOF");
     }
 }
