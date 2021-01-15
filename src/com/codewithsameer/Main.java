@@ -19,5 +19,14 @@ public class Main {
         // you can see enabled gets printed textBox object is inheriting the functions defined in the base class UIControl.
         // Inheritance helps reuse of the code across classes without code duplication.
         textBox.enable();
+
+        //Polymorphism in action
+        System.out.println("\n \nDrawing widgets");
+        drawUIControl(new TextBox());
+        drawUIControl(new Button());
+    }
+
+    public static void drawUIControl(UIControl control){
+        control.draw();
     }
 }
