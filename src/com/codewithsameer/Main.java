@@ -8,5 +8,8 @@ public class Main {
 	    account.withdraw(5);
         System.out.println(account.getBalance());
         System.out.println("EOF");
+
+        var mailService = new MailService();
+        mailService.sendEmail();
     }
 }
