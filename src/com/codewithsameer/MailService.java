@@ -23,4 +23,5 @@ public class MailService {
     private void disconnect(){
         System.out.println("Disconnect from the email server");
     }
+
 }

@@ -5,4 +5,5 @@ public abstract class UIControl {
     //Each widget should know how to draw itself.
     public abstract void draw();
     public abstract void enable();
+
 }

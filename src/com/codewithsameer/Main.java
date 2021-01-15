@@ -25,6 +25,7 @@ public class Main {
         System.out.println("\n \nDrawing widgets");
         drawUIControl(new TextBox());
         drawUIControl(new Button());
+
     }
 
     public static void drawUIControl(UIControl control){
