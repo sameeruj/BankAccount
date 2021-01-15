@@ -13,5 +13,11 @@ public class Main {
         // demonstrates abstraction principle.
         var mailService = new MailService();
         mailService.sendEmail();
+
+        // Inheritance demonstration
+        var textBox = new TextBox();
+        // you can see enabled gets printed textBox object is inheriting the functions defined in the base class UIControl.
+        // Inheritance helps reuse of the code across classes without code duplication.
+        textBox.enable();
     }
 }
